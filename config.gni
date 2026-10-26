@@ -12,3 +12,6 @@
 # limitations under the License.
 
 import("//device/soc/qualcomm/sm8735/config.gni")
+
+# hb scans this file before evaluating GN imports.
+board_toolchain_type = "clang"
